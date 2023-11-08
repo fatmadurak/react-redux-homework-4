@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navList {
+  padding: 2rem;
+  background-color: rgb(165, 176, 185);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem {
+  list-style: none;
+}
+
+.navItem a {
+  color: rgb(2, 0, 128);
+  padding: 2rem;
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navItem a:hover {
+  color: rgb(123, 131, 109);
+}
